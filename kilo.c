@@ -319,6 +319,7 @@ void initEditor() {
 
 int main() {
   enableRawMode();
+  initEditor();
 
   while (1) {
     editorRefreshScreen();
